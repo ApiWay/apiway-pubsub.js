@@ -1,5 +1,5 @@
 {
-  "name": "apiway-pubsub.js",
+  "name": "apiway-pubsub",
   "version": "0.0.1",
   "license": "MIT",
   "description": ".",
@@ -90,7 +90,8 @@
   "keywords": [
     "AwPubSub",
     "pubsub",
-    "mqtt"
+    "mqtt",
+    "mosquitto"
   ],
   "bugs": {
     "url": "https://AwPubSub.com/AwPubSub/AwPubSub-pubsub.js/issues"

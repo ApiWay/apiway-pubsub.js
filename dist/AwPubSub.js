@@ -59,7 +59,6 @@ var AwPubSub = function () {
       key: 'onConnect',
       value: function onConnect() {
          log.info('onConnect');
-         // mqttClient.publish(this.topic, this.message)
          this.mqttClient.publish(this.topic, this.message);
          this.resolve();
       }
@@ -74,7 +73,7 @@ var AwPubSub = function () {
       value: function publish(topic, message) {
          var _this = this;
 
-         console.log('publish');
+         log.info('publish');
          return new Promise(function (resolve, reject) {
             _this.resolve = resolve;
             _this.reject = reject;
